@@ -6,17 +6,14 @@
   background-image: url(../images/images-bike/bike-mobile.jpg);
 
   @include onTablet {
-    height: 628px;
     background-image: url(../images/images-bike/bike-tablet.jpg);
   }
 
   @include onDesktop {
-    width: 1260px;
-    height: 711px;
-    background-image: url(../images/images-bike/bike-desktop.jpg );
+    background-image: url(../images/images-bike/bike-desktop.jpg);
   }
 
-  @media (min-width: 4096px) {
+  @media (min-width: 1500px) {
     background-image: url(../images/images-bike/bike-big-size.png);
   }
 
